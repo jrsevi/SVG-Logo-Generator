@@ -53,7 +53,7 @@ inquirer.prompt([
     });
 
     function renderSvg(shape, text) {
-        return '<svg width="200" height="200">
+        return `<svg width="200" height="200">
         ${shape.render()}
         <text x="50%" y="50%" text-anchor="middle" font-size="2em" alignment-baseline="middle" fill="back">${text}</text>
         </svg>';
