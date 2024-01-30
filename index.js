@@ -21,7 +21,7 @@ inquirer.prompt([
         name: 'text',
         validate: function (value) {
             if (value.length === 3) {
-                return.true;
+                return true;
             }
             return 'Please enter 3 characters';
         },
